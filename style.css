@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+}
+
+.nav_back{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 730px;
+}
+
+header{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 5px;
+    text-decoration: none;
+}
+
+.logo > img{
+    position: absolute;
+    width: 200px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.navbar{
+    position: absolute;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 55px;
+    margin: 336px;
+    font-weight: 900;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.navbar a:hover
+{
+    font-weight: bolder;
+    color: #FFFB73;
+    font-size: 25px;
+}
+
+.login{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 90vw;
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.login a{
+    color: #000000;
+}
+
+button{
+    width: 100px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.headline{
+    position: relative;
+    margin-top: 760px;
+    padding-left: 90px;
+    width: 50vw;
+    color: #ff8000;
+    right: 660px;
+}
+
+.headline h1{
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    color: #FFFB73;
+    margin-bottom: 10px;
+
+}
+
+.headline h3{
+    width: 33vw;
+    font-weight: 500;
+    font-size: 25px;
+    font-family:  'Baloo Bhaijaan 2', sans-serif;
+    color: #FFFB73;
+    margin-top: -35px;
+}
+
+.catalog{
+    position: relative;
+    top: 730px;
+    width: 100%;
+}
+
+.bed1{
+    position: relative;
+    width: 400px;
+    left: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 60px 140px 60px 140px;
+}
+
+.bed2{
+    position: relative;
+    width: 400px;
+    left: 200px;
+    top: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 60px 140px 60px 140px;
+}
+
+.bed3{
+    position: relative;
+    width: 400px;
+    right: 645px;
+    top: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 60px 140px 60px 140px;
+}
+
+.bed4{
+    position: relative;
+    width: 400px;
+    left: 200px;
+    top: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 60px 140px 60px 140px;
+}
+
+.catalog{
+    color: rgb(255, 255, 255);
+}
+
+.imged {
+    width: 100%;
+    height: 1052px;
+    position: absolute;
+    top: -37px;
+}
+
+.catalog h2{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    bottom: 231px;
+    left: 230px;
+    text-decoration: underline;
+}
+
+.catalog h3{
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    left: 556px;
+    bottom: 357px;
+    font-size: 25px;
+}
+
+.catalog .bedd1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    bottom: 260px;
+    text-decoration: underline;
+}
+
+.catalog .bedd1 h3{
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    left: 645px;
+    bottom: 390px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.catalog .bedd2 h2{
+    left: -249px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    bottom: 264px;
+    text-decoration: underline;
+}
+
+.catalog .bedd2 h3{
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    left: 154px;
+    top: -370px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.catalog .bedd3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    bottom: 220px;
+    text-decoration: underline;
+}
+
+.catalog .bedd3 h3{
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    left: 675px;
+    bottom: 210px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.product{
+    position: relative;
+    top: 610px;
+    width: 100%;
+    background-color: rgb(0, 0, 80);
+    color: white;
+}
+
+.product-heading{
+    text-align: center;
+    font-size: 60px;
+}
+
+.product_container{
+    display: grid;
+    align-items: centre;
+    gap: 3.5rem;
+    margin: 100px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product_container .product_box{
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+}
+
+.product_box img{
+    width: 100%;
+    height: 450px;
+    transition: .5s ease;
+}
+
+.product_box:hover img{
+    transform: scale(1.1);
+}
+
+.product_box .productdetail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ffff7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.product_box:hover .productdetail{
+    transform: translateY(0);
+}
+
+.productdetail h3{
+    font-size: 50px;
+}
+
+.productdetail p{
+    font-size: 20px;
+    color: #000000;
+    margin: .3rem 0 1rem;
+}
+
+.productdetail a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: white;
+    border-radius: 50%;
+}
+
+.productdetail a i{
+    font-size: 30px;
+    color: rgb(0, 0, 55);
+}
+
+.contact{
+    position: relative;
+    top: 510px;
+    width: 100%;
+    background-color: rgb(0, 0, 80);
+    color: white;
+}
+
+.contact label{
+    color: white;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .form-detail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: #00FFFF;
+    border: white;
+}
+
+.contact form .form-detail input,
+.contact form textarea{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(0, 0, 55);
+    border-radius: 1.3rem;
+    margin: 1rem 0;
+}
+
+.contact form .form-detail input:hover,
+.contact form textarea:hover{
+    background-color: rgb(0, 0, 55);
+
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    color: #000000;
+    background-color: #00FFFF;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: rgb(0, 0, 80);
+    top: 462px;
+    position: relative;
+    color: white;
+}
+
+.footer_text p{
+    font-size: 1.5rem;
+}
+
+.footer_image a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #00FFFF;
+    border-radius: 50%;
+}
